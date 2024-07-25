@@ -57,13 +57,13 @@ textarea {resize: none;}
 }
 
 .caixa_mensagem {
-    min-height: 50px;
-    width: 757px;
+    min-height: fit-content;
+    width: 770px;
     margin: 10px 20px 0px 20px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-wrap: break-word;
     border-radius: 5px;
 }
 
@@ -76,7 +76,7 @@ textarea {resize: none;}
 .editar_excluir {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0px 20px 10px;
+    margin: 0px 21px 10px;
 }
 
 .botao_editar {
