@@ -63,7 +63,7 @@ textarea {resize: none;}
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
     border-radius: 5px;
 }
 
